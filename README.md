@@ -41,7 +41,3 @@ No production URL or public API endpoint has been configured. Publishing require
 - No server-side processing or authenticated API. The static build does not provide protected admin access or access-controlled data.
 - The supplied Node tests and build have not been executed in this editing environment. The browser UI probe and core preset probe both pass; still run `npm test` and `npm run build` (CI does this) before release.
 - Advanced model fields (rule scope, resource caps and preferences, site cadence, rotation patterns, per-date overrides) are honoured by the engine but are only editable via JSON import/export, not in the UI.
-
-## Recommended next steps
-
-Run the full Node suite and build on CI, review real-world constraint configurations and accessibility, and verify generated exports with target calendar/spreadsheet clients. Publish only after your deployment smoke test passes and keep regular JSON backups of live planning data.
