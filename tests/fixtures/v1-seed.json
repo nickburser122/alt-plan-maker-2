@@ -1,0 +1,1610 @@
+{
+  "scope": {
+    "mode": "custom",
+    "start": "2026-09-07",
+    "end": "2026-09-10"
+  },
+  "dayOverrides": {},
+  "facilities": [
+    {
+      "id": "hehts9a",
+      "name": "هيئة التأمين الصحي",
+      "type": "excluded",
+      "km": 163,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "phou7to",
+      "name": "المحافظة",
+      "type": "excluded",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "gl20a2m",
+      "name": "سنترال دمنهور",
+      "type": "excluded",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "4ctvm6y",
+      "name": "لجان الانتخابات",
+      "type": "excluded",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "jdidqxr",
+      "name": "مبني العيادة التخصصية",
+      "type": "excluded",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "l1y8bj3",
+      "name": "كفر الشيخ",
+      "type": "excluded",
+      "km": 57,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "6c0143q",
+      "name": "ادارة الفرع",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "k0p23rs",
+      "name": "التوثيق والمعلومات",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "8q8i1tt",
+      "name": "الشئون الطبية",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "pdkkzw7",
+      "name": "الشئون القانونية",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "g684nfh",
+      "name": "المركبات",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "rk8xsu6",
+      "name": "الملحق",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "k3kepfz",
+      "name": "دار الشفا ابو حمص",
+      "type": "contracted",
+      "km": 22,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "7206l39",
+      "name": "مركز ابو حمص للاشعة",
+      "type": "contracted",
+      "km": 22,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "y6dfxmk",
+      "name": "مركز اشعة فيرست",
+      "type": "contracted",
+      "km": 27,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "3r3e1j2",
+      "name": "المستقبل للاشعة",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "x14zeec",
+      "name": "بحيرة سكان",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "fxuzbul",
+      "name": "مركز دمنهور للاشعة",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "gcg1qgl",
+      "name": "مركز محمد عمرو",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "yth4tx9",
+      "name": "مصطفي الاجهوري",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "sh973of",
+      "name": "دلتا سكان",
+      "type": "contracted",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "kepxw9w",
+      "name": "كفر الدوار سكان",
+      "type": "contracted",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "bnna0li",
+      "name": "كفر الدوار للاشعة",
+      "type": "contracted",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "723y882",
+      "name": "مصر سكان",
+      "type": "contracted",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "9oyfwp3",
+      "name": "العليمي سكان",
+      "type": "contracted",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "tpkgjpw",
+      "name": "تسلا كوم حمادة",
+      "type": "contracted",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "q1vir7s",
+      "name": "نيوروهيلث",
+      "type": "contracted",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "x91o27x",
+      "name": "ابو المطامير",
+      "type": "main",
+      "km": 38,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "q2t3gtj",
+      "name": "مدارس ابو المطامير",
+      "type": "excluded",
+      "km": 38,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "0yfolmx",
+      "name": "مدرسة جانكليز",
+      "type": "excluded",
+      "km": 38,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "vxazn7e",
+      "name": "ادكو طلاب",
+      "type": "main",
+      "km": 50,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "w8tpm0s",
+      "name": "ادكو قوي عاملة",
+      "type": "main",
+      "km": 50,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "1n1d3w8",
+      "name": "البيضا",
+      "type": "main",
+      "km": 18,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "h20btzo",
+      "name": "النوبارية",
+      "type": "main",
+      "km": 65,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "k381yc0",
+      "name": "قرية العشر آلاف فدان",
+      "type": "excluded",
+      "km": 65,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "d6rwiwt",
+      "name": "رشيد طلاب",
+      "type": "main",
+      "km": 66,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "y32cv1w",
+      "name": "رشيد قوي عاملة",
+      "type": "main",
+      "km": 66,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "mj3hm5t",
+      "name": "ادارة المنطقة الاولي",
+      "type": "main",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "cm9o0ye",
+      "name": "كفر الدوار طلاب",
+      "type": "main",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "u9qqjlk",
+      "name": "كفر الدوار قوي عاملة",
+      "type": "main",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "jrqkkib",
+      "name": "كفر الدوار مسائي",
+      "type": "main",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "xdbtrb8",
+      "name": "مستشفي كفر الدوار مسائي",
+      "type": "main",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "85syj82",
+      "name": "كفر الدوار طلاب صلاح سالم",
+      "type": "main",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "vtj4wb1",
+      "name": "ابو حمص",
+      "type": "main",
+      "km": 22,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "gmkvap7",
+      "name": "الرحمانية",
+      "type": "main",
+      "km": 40,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "qpylrbz",
+      "name": "المحمودية",
+      "type": "main",
+      "km": 27,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "i2v1n2g",
+      "name": "المحمودية مسائي",
+      "type": "main",
+      "km": 27,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "ji4n9gh",
+      "name": "حوش عيسي طلاب",
+      "type": "main",
+      "km": 35,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "mrh6l5j",
+      "name": "حوش عيسي قوي عاملة",
+      "type": "main",
+      "km": 35,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "q7w510l",
+      "name": "مدارس حوش عيسي",
+      "type": "excluded",
+      "km": 35,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "7431ray",
+      "name": "ادارة المنطقة الثانية",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "xdg4vc2",
+      "name": "الاجهزة التعويضية صلاح الدين",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "4lpmtq0",
+      "name": "الزراعة",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "x0woho7",
+      "name": "الشرطة",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "dc0v6ij",
+      "name": "العلاج الطبيعي",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "fsy704o",
+      "name": "اللجنة الطبية",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "g3dzs4p",
+      "name": "المخازن الطبية",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "zk33c4q",
+      "name": "المخازن الغير طبية",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "7v9alac",
+      "name": "دمنهور الشاملة",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "i0lwqxv",
+      "name": "دمنهور طلاب",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "whuqveb",
+      "name": "دمنهور مسائي",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "btgi57b",
+      "name": "مديرية التربية والتعليم",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "ngdxojf",
+      "name": "الدلنجات قوي عاملة",
+      "type": "main",
+      "km": 25,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "m69b4h3",
+      "name": "الدلنجات مسائي",
+      "type": "main",
+      "km": 25,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "bxgrpcx",
+      "name": "الدلنجات طلاب",
+      "type": "main",
+      "km": 25,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "lacwy8x",
+      "name": "ادارة المنطقة الثالثة",
+      "type": "main",
+      "km": 26,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "84le37a",
+      "name": "ايتاي البارود",
+      "type": "main",
+      "km": 26,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "3a1nhv9",
+      "name": "ايتاي البارود طلاب",
+      "type": "main",
+      "km": 26,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "73m1npd",
+      "name": "ايتاي مسائي",
+      "type": "main",
+      "km": 26,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "xutiy8q",
+      "name": "مستشفي ايتاي مسائي",
+      "type": "main",
+      "km": 26,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "nz1nf4x",
+      "name": "بدر",
+      "type": "main",
+      "km": 76,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "gaf17rg",
+      "name": "علاج طبيعي",
+      "type": "main",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "ay7ryap",
+      "name": "شبراخيت طلاب",
+      "type": "main",
+      "km": 29,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "umwxjjo",
+      "name": "شبراخيت قوي عاملة",
+      "type": "main",
+      "km": 29,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "sbnwy11",
+      "name": "قليشان",
+      "type": "main",
+      "km": 25,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "fra3hh8",
+      "name": "كوم حمادة طلاب",
+      "type": "main",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "brsvv85",
+      "name": "كوم حمادة قوي عاملة",
+      "type": "main",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "3460ssq",
+      "name": "كوم حمادة مسائي",
+      "type": "main",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "obqd9jv",
+      "name": "مستشفي كوم حمادة مسائي",
+      "type": "main",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "ksjlef2",
+      "name": "وادي النطرون",
+      "type": "main",
+      "km": 82,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "um631v8",
+      "name": "الرقابة الادارية",
+      "type": "excluded",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "un4wsu8",
+      "name": "دار الحكمة ابو حمص",
+      "type": "contracted",
+      "km": 22,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "g06vbmu",
+      "name": "حضانات الرعاية المتكاملة",
+      "type": "contracted",
+      "km": 25,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "ra0ex04",
+      "name": "حضانات الصفوة بالدلنجات",
+      "type": "contracted",
+      "km": 25,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "n9u3i6z",
+      "name": "دار السلام للحضانات",
+      "type": "contracted",
+      "km": 25,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "66of5ny",
+      "name": "حضانات اجيال",
+      "type": "contracted",
+      "km": 35,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "jze0co8",
+      "name": "حضانات رعاية المرضي",
+      "type": "contracted",
+      "km": 35,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "kciylhd",
+      "name": "حضانات الدواء الشافي",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "f3o5e2v",
+      "name": "جمعية تنمية المجتمع بشرنوب",
+      "type": "contracted",
+      "km": 12,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "41w5mx9",
+      "name": "الحياة للحضانات",
+      "type": "contracted",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "lu7lt8z",
+      "name": "حضانات جنين",
+      "type": "contracted",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "ih8tt7z",
+      "name": "سعادة الدارين",
+      "type": "contracted",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "601c0yy",
+      "name": "ادفينا غسيل كلوي",
+      "type": "contracted",
+      "km": 70,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "y2oo5hb",
+      "name": "نور الايمان",
+      "type": "contracted",
+      "km": 50,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "ty4ic34",
+      "name": "اصدقاء اليتيم للغسيل الكلوي",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "ulxjxab",
+      "name": "مركز دار الكلي",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "2acvlv4",
+      "name": "مركز دمنهور للكلي",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "iszfmkb",
+      "name": "مركز رشيد للغسيل الكلوي",
+      "type": "contracted",
+      "km": 66,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "qossnr8",
+      "name": "جمعية الهدي كفر الدوار",
+      "type": "contracted",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "9lw33gi",
+      "name": "تنمية المجتمع واقد",
+      "type": "contracted",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "qguyodg",
+      "name": "مستشفي بلال التخصصي",
+      "type": "contracted",
+      "km": 22,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "n1501pl",
+      "name": "مستشفي ادفينا المركزي",
+      "type": "contracted",
+      "km": 70,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "kqya5fs",
+      "name": "مستشفي الفخراني",
+      "type": "contracted",
+      "km": 70,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "o64ztta",
+      "name": "مستشفي ادكو",
+      "type": "contracted",
+      "km": 50,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "dww9ufn",
+      "name": "السعد خورشيد",
+      "type": "contracted",
+      "km": 64,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "m3svifv",
+      "name": "الصفوة اسكندرية",
+      "type": "contracted",
+      "km": 64,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "bqoylit",
+      "name": "بيجاد ذات العماد",
+      "type": "contracted",
+      "km": 64,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "7t1dzwe",
+      "name": "فوزي معاذ اسكندرية",
+      "type": "contracted",
+      "km": 64,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "mcfan9b",
+      "name": "مستشفي دار الشفا بالدلنجات",
+      "type": "contracted",
+      "km": 25,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "k76mdiv",
+      "name": "الصفوة الرحمانية",
+      "type": "contracted",
+      "km": 40,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "q4rcv7w",
+      "name": "جمعية الحمد الاسلامية",
+      "type": "contracted",
+      "km": 40,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "4mbn4y0",
+      "name": "مستشفي CIC",
+      "type": "contracted",
+      "km": 26,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "5ki0tqy",
+      "name": "مستشفي الرحمة نكلا العنب",
+      "type": "contracted",
+      "km": 26,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "b6ukigs",
+      "name": "مستشفي ايتاي",
+      "type": "contracted",
+      "km": 26,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "cz0xpf0",
+      "name": "مستشفي دار الشروق",
+      "type": "contracted",
+      "km": 26,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "yec7anj",
+      "name": "مستشفي نور الرحمن",
+      "type": "contracted",
+      "km": 26,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "er4q4ba",
+      "name": "ممستشفي الرسالة",
+      "type": "contracted",
+      "km": 76,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "2b6hp2n",
+      "name": "الزهراء الحديثة حوش عيسي",
+      "type": "contracted",
+      "km": 35,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "al69taj",
+      "name": "مستشفي المدينة حوش عيسي",
+      "type": "contracted",
+      "km": 35,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "v86bxz8",
+      "name": "السعد دمنهور",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "pasvrxf",
+      "name": "المبرة دمنهور",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "d9cu07n",
+      "name": "الهلال الاحمر",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "l60mk42",
+      "name": "دار الشفا دمنهور",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "uuxdaec",
+      "name": "رواد الوادي",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "e0bh0h3",
+      "name": "مركز مصطفي النجار",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "3a7ax1f",
+      "name": "مستشفي الراعي الصالح",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "nvv2nq9",
+      "name": "مستشفي الفاروق",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "sgrymx0",
+      "name": "مستشفي النور للعيون",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "vfo40ql",
+      "name": "مستشفي النيل للقلب",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "w3hkag4",
+      "name": "مستشفي دار الامومة",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "cx610ur",
+      "name": "مستشفي دار السلام",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "j9a110e",
+      "name": "مستشفي دار الطفل",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "muvzj0n",
+      "name": "مستشفي دمنهور للعيون",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "6ju5c12",
+      "name": "مستشفي رويال الشرق",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "wwns4qu",
+      "name": "مستشفي كونكورد",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "4ok7yyf",
+      "name": "مستشفي ليدي كير",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "kdg3de3",
+      "name": "يحيي راضي",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "dmsws8i",
+      "name": "مستشفي باشا رشيد",
+      "type": "contracted",
+      "km": 66,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "xfku4mi",
+      "name": "مستشفي نبض الحياة",
+      "type": "contracted",
+      "km": 66,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "cj1poaq",
+      "name": "الصفوة للعيون كفر الدوار",
+      "type": "contracted",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "6vqqmw9",
+      "name": "المبرة كفر الدوار",
+      "type": "contracted",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "v7hj68y",
+      "name": "مركز الجهاز الهضمي كفر الدوار",
+      "type": "contracted",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "nl0sapt",
+      "name": "مستشفي الاندلس",
+      "type": "contracted",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "pnu6cyn",
+      "name": "مستشفي الحجاز",
+      "type": "contracted",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "2celkug",
+      "name": "معمل النجيلي",
+      "type": "contracted",
+      "km": 27,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "7hcl8c8",
+      "name": "معمل صالح",
+      "type": "contracted",
+      "km": 27,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "dv0n30v",
+      "name": "معمل شريف نوح",
+      "type": "contracted",
+      "km": 35,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "zpqw599",
+      "name": "معمل البرج",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "xla0xbi",
+      "name": "معمل الشمس",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "xicqyk9",
+      "name": "معمل الفا",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "mscs29x",
+      "name": "معمل المختبر",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "4hmgik5",
+      "name": "معمل بديوي",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "99qxg1v",
+      "name": "معمل حساب",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "3xwt35a",
+      "name": "معمل شلبي",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "6f136vr",
+      "name": "معمل مبرة العصافرة",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "iro3zj3",
+      "name": "معمل مركز دار الكلي",
+      "type": "contracted",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "g1xmycm",
+      "name": "معمل سبيد",
+      "type": "contracted",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "nz9hbvk",
+      "name": "نيابة ابو المطامير",
+      "type": "excluded",
+      "km": 38,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "cgdvin7",
+      "name": "نيابة الرحمانية",
+      "type": "excluded",
+      "km": 40,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "29t3yih",
+      "name": "نيابة ايتاي",
+      "type": "excluded",
+      "km": 26,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "4rhky9i",
+      "name": "نيابة دمنهور",
+      "type": "excluded",
+      "km": 0,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "2rtljfe",
+      "name": "نيابة شبين الكوم",
+      "type": "excluded",
+      "km": 86,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "10ebug1",
+      "name": "نيابة كفر الدوار",
+      "type": "excluded",
+      "km": 37,
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "pwob1wd",
+      "name": "نيابة كوم حمادة",
+      "type": "excluded",
+      "km": 45,
+      "weight": 1,
+      "active": true
+    }
+  ],
+  "people": [
+    {
+      "id": "ci9gxyu",
+      "name": "لبني",
+      "pool": "fin",
+      "originKm": 5,
+      "pref": "near",
+      "weight": 1,
+      "weekdays": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "offDates": [],
+      "active": true
+    },
+    {
+      "id": "pk6jbl9",
+      "name": "اباظة",
+      "pool": "fin",
+      "originKm": 12,
+      "pref": "none",
+      "weight": 1,
+      "weekdays": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "offDates": [],
+      "active": true
+    },
+    {
+      "id": "r5yice8",
+      "name": "شلتوت",
+      "pool": "fin",
+      "originKm": 8,
+      "pref": "near",
+      "weight": 1,
+      "weekdays": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "offDates": [],
+      "active": true
+    },
+    {
+      "id": "erd34px",
+      "name": "اماني",
+      "pool": "fin",
+      "originKm": 4,
+      "pref": "none",
+      "weight": 1,
+      "weekdays": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "offDates": [],
+      "active": true
+    },
+    {
+      "id": "o0p6cvz",
+      "name": "غادة",
+      "pool": "fin",
+      "originKm": 10,
+      "pref": "near",
+      "weight": 1,
+      "weekdays": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "offDates": [],
+      "active": true
+    },
+    {
+      "id": "w6dbupm",
+      "name": "حمودين",
+      "pool": "clin",
+      "originKm": 6,
+      "pref": "near",
+      "weight": 1,
+      "weekdays": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "offDates": [],
+      "active": true
+    },
+    {
+      "id": "03zw3qx",
+      "name": "شوقي",
+      "pool": "clin",
+      "originKm": 16,
+      "pref": "far",
+      "weight": 1,
+      "weekdays": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "offDates": [],
+      "active": true
+    },
+    {
+      "id": "lwpkdoc",
+      "name": "اسماء",
+      "pool": "clin",
+      "originKm": 3,
+      "pref": "none",
+      "weight": 1,
+      "weekdays": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "offDates": [],
+      "active": true
+    },
+    {
+      "id": "qb5pihp",
+      "name": "مريم",
+      "pool": "clin",
+      "originKm": 7,
+      "pref": "near",
+      "weight": 1,
+      "weekdays": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "offDates": [],
+      "active": true
+    },
+    {
+      "id": "anv7sjv",
+      "name": "شرنوبي",
+      "pool": "clin",
+      "originKm": 11,
+      "pref": "none",
+      "weight": 1,
+      "weekdays": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "offDates": [],
+      "active": true
+    },
+    {
+      "id": "6oq48zn",
+      "name": "ميسرة",
+      "pool": "clin",
+      "originKm": 9,
+      "pref": "near",
+      "weight": 1,
+      "weekdays": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "offDates": [],
+      "active": true
+    }
+  ],
+  "settings": {
+    "lang": "en",
+    "weekdayDefaults": [
+      {
+        "on": true,
+        "visits": 1,
+        "pref": "auto"
+      },
+      {
+        "on": true,
+        "visits": 1,
+        "pref": "auto"
+      },
+      {
+        "on": true,
+        "visits": 1,
+        "pref": "auto"
+      },
+      {
+        "on": true,
+        "visits": 1,
+        "pref": "auto"
+      },
+      {
+        "on": true,
+        "visits": 2,
+        "pref": "near"
+      },
+      {
+        "on": false,
+        "visits": 0,
+        "pref": "auto"
+      },
+      {
+        "on": false,
+        "visits": 0,
+        "pref": "auto"
+      }
+    ],
+    "staffing": {
+      "main": {
+        "fin": 2,
+        "clin": 2
+      },
+      "contracted": {
+        "fin": 1,
+        "clin": 2
+      }
+    },
+    "ratio": {
+      "m": 3,
+      "c": 1
+    },
+    "distinctPerDay": true,
+    "rotate": true,
+    "noConsecutive": true,
+    "oneVisitPerDay": true,
+    "relaxMode": "relaxed",
+    "nearKm": 10,
+    "weights": {
+      "fairness": 70,
+      "pref": 50,
+      "distance": 40,
+      "facility": 60,
+      "person": 30
+    },
+    "useW": {
+      "fairness": true,
+      "pref": true,
+      "distance": true,
+      "facility": true,
+      "person": true
+    },
+    "seed": 20260907,
+    "restarts": 12,
+    "autosave": true
+  }
+}

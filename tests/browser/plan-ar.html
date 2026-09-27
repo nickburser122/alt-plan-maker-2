@@ -1,0 +1,9 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../../src/ui/tokens.css"><link rel="stylesheet" href="../../src/ui/components.css"><link rel="stylesheet" href="../../src/ui/mobile.css"><link rel="stylesheet" href="../../src/ui/forms.css"><link rel="stylesheet" href="../../src/ui/polish.css"><style>body{margin:0;padding:24px}main{max-width:1100px;margin:auto}</style></head><body><main id="app"></main><script type="module">
+import { createApp } from '../../src/app.js';
+import { findPreset } from '../../src/core/presets.js';
+const params = new URLSearchParams(location.search);
+const model = findPreset('field-visits').build('2026-09-28');
+model.ui.view = params.get('view') || 'plan';
+model.ui.lang = 'ar';
+window.testApp = createApp(document.getElementById('app'), model);
+</script></body></html>

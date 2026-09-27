@@ -1,0 +1,42 @@
+:root{
+  --bg-page:#F5F1F4;
+  --bg-card:#FBF9FA;
+  --bg-raised:#FFFFFF;
+  --wash-hover:#F3ECF1;
+  --wash-selected:#EDE3EA;
+  --ink-900:#322230;
+  --ink-700:#52414C;
+  --ink-500:#806C7A;
+  --ink-400:#A1909C;
+  --ink-300:#C4B6C0;
+  --hairline:#E9E1E7;
+  --hairline-strong:#DDCFDA;
+  --primary:#6D4461;
+  --primary-hover:#5E3A53;
+  --primary-active:#4F3046;
+  --on-primary:#F9F4F7;
+  --accent-soft:#9A6B8C;
+  --shadow-tint:rgba(70,36,64,.07);
+  --focus-ring:rgba(154,107,140,.45);
+  --ease:cubic-bezier(.2,0,0,1);
+  --r-card:20px; --r-ctl:12px; --r-cta:14px;
+}
+*{box-sizing:border-box}
+html{scrollbar-width:thin;scrollbar-color:var(--ink-300) transparent}
+html.modal-open{overflow:hidden}
+body{margin:0;background:var(--bg-page);color:var(--ink-900);
+  font-family:"Instrument Sans","IBM Plex Sans Arabic",system-ui,sans-serif;
+  font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px;border-radius:4px}
+::selection{background:var(--wash-selected)}
+html[dir="rtl"] *{letter-spacing:0!important}
+:root{
+  --role-1:#5A578E;
+  --role-2:#6E578E;
+  --role-3:#81578E;
+  --role-4:#8E5788;
+  --role-5:#8E5774;
+  --role-6:#8E5760;
+  --role-7:#8E6257;
+  --role-8:#8E7657;
+}

@@ -1,0 +1,15 @@
+@media (max-width: 680px) {
+  .view-container { padding: 0; }
+  #plan-tblwrap { overflow-x: visible; }
+  #plan-tblwrap .sched { min-width: 0; width: 100%; display: block; }
+  #plan-tblwrap .sched thead { display: none; }
+  #plan-tblwrap .sched tbody { display: block; }
+  #plan-tblwrap .sched tr.dayhead { display: block; }
+  #plan-tblwrap .sched tr.dayhead td { display: block; }
+  #plan-tblwrap .sched tr:not(.dayhead) { display: grid; grid-template-columns: minmax(0, 1fr) auto; padding: 11px 12px; border-bottom: 1px solid var(--hairline); gap: 4px 8px; }
+  #plan-tblwrap .sched tr:not(.dayhead) td { min-width: 0; padding: 0; border: 0; }
+  #plan-tblwrap .sched tr:not(.dayhead) td:first-child { overflow-wrap: anywhere; }
+  #plan-tblwrap .sched tr:not(.dayhead) td:nth-child(2) { text-align: end; }
+  #plan-tblwrap .sched tr:not(.dayhead) td.team { grid-column: 1 / -1; display: flex; flex-wrap: wrap; }
+  #plan-tblwrap .pill { max-width: 100%; overflow-wrap: anywhere; }
+}

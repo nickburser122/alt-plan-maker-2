@@ -1,0 +1,109 @@
+#app .plan-head{margin-bottom:14px}
+#app .plan-head .card-head{margin-bottom:10px}
+#app .plan-head .ctitle{font-size:22px}
+#app .plan-hint{margin:12px 0 0}
+#app .btnrow{align-items:center}
+#app .ribbon{margin-bottom:12px;padding-top:4px}
+#app .tile{font:inherit;color:inherit}
+#app .tblcard{padding:6px 8px;overflow:hidden}
+#app .tblcard .sched{min-width:640px}
+#app .sched th:nth-child(1){width:34%}
+#app .sched th:nth-child(2){width:150px}
+#app .sched tbody tr:not(.dayhead):hover td{background:var(--wash-hover)}
+#app .sched tbody tr:last-child td{border-bottom:0}
+#app .team{align-items:center}
+#app .tblwrap{border-radius:14px}
+#app button.pill{display:inline-flex;align-items:center;gap:6px;padding:4px 11px 5px;border-radius:999px;line-height:1.2}
+#app button.pill::before{content:attr(data-role-name);font:600 9.5px "JetBrains Mono",monospace;letter-spacing:.06em;opacity:.7}
+#app button.pill[data-role-name=""]::before{display:none}
+#app button.pill.role-0{background:var(--wash-selected);border-color:transparent;color:var(--primary)}
+#app button.pill.role-1{background:var(--bg-raised);border-color:var(--hairline-strong);color:var(--ink-700)}
+#app button.pill.role-2{background:#EEEAF4;border-color:transparent;color:#5A578E}
+#app button.pill.role-3{background:#F4ECE7;border-color:transparent;color:#7A5646}
+#app button.pill.locked{border-color:var(--primary);box-shadow:inset 0 0 0 1px var(--primary)}
+#app .lock-ic{width:12px;height:12px;flex:none}
+#app .pill.open{display:inline-flex;align-items:center;padding:4px 11px 5px;border-radius:999px;border:1px dashed var(--accent-soft);color:var(--accent-soft);font-style:normal;font-weight:600;font-size:12px;cursor:help}
+#app .empty{padding:28px 16px!important;font-style:normal;color:var(--ink-500);background:var(--bg-card);border:1px dashed var(--hairline-strong);border-radius:16px}
+#app .list-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+#app .list-head .ctitle{font-size:22px}
+#app .list-head .btnrow{gap:8px}
+#app .entity-card{margin-bottom:10px;padding:16px 18px}
+#app .entity-card+.entity-card{margin-top:0}
+#app .entity-card.muted{opacity:.6}
+#app .entity-top{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+#app .entity-top .grow{flex:1 1 200px;min-width:0}
+#app .entity-sub{display:flex;gap:14px 22px;align-items:center;flex-wrap:wrap;margin-top:12px}
+#app .sub-label{font:600 10.5px "JetBrains Mono","IBM Plex Sans Arabic",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-400);margin-inline-end:4px}
+#app .wds{display:inline-flex;gap:4px;flex-wrap:wrap}
+#app .wd{width:auto;min-width:34px;height:28px;padding:0 7px;border-radius:8px;font-size:11px}
+#app .toggle{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--ink-700);cursor:pointer;user-select:none}
+#app .btn.danger-ghost{background:transparent;border-color:transparent;color:var(--ink-500)}
+#app .btn.danger-ghost:hover{background:#F6E6EA;color:#9B2C45}
+#app .btn.danger-ghost.arm{background:#9B2C45!important;border-color:#9B2C45!important;color:#fff!important}
+#app .btn:disabled,#app .btn:disabled:hover{opacity:.5;cursor:not-allowed;transform:none;background:var(--bg-raised);color:var(--ink-500)}
+#app .btn.primary:disabled{background:var(--primary);color:var(--on-primary)}
+#app .btn.sm{padding:6px 12px;font-size:12.5px;border-radius:10px}
+#app .rule-card{margin-bottom:10px;padding:16px 18px}
+#app .rule-card.muted .rule-preview,#app .rule-card.muted .rule-title{opacity:.55}
+#app .rule-title{font-weight:600;font-size:14.5px;color:var(--ink-900)}
+#app .rule-preview{margin-top:4px;color:var(--ink-500);font-size:13px}
+#app .rule-controls{display:flex;align-items:center;gap:12px 18px;flex-wrap:wrap;margin-top:12px}
+#app .rule-params{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+#app .rule-params:empty{display:none}
+#app .weight-ctl{display:inline-flex;align-items:center;gap:8px}
+#app .weight-ctl output{font:600 12px "JetBrains Mono",monospace;color:var(--ink-700);min-width:28px;text-align:end}
+#app .weight-ctl.disabled{opacity:.45}
+#app .rule-add-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+#app .rule-add-row select{min-width:220px}
+#app .cat-title{font:600 10.5px "JetBrains Mono","IBM Plex Sans Arabic",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-400);margin:20px 4px 10px}
+#app .cat-title:first-child{margin-top:4px}
+#app .date-chips{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+#app .date-chip{display:inline-flex;align-items:center;gap:4px;background:var(--wash-hover);border:1px solid var(--hairline);border-radius:999px;padding:3px 4px 3px 10px;font:600 11.5px "JetBrains Mono",monospace;color:var(--ink-700)}
+#app .date-chip button{border:0;background:none;cursor:pointer;width:20px;height:20px;border-radius:50%;color:var(--ink-500);display:grid;place-items:center;font-size:14px;line-height:1}
+#app .date-chip button:hover{background:var(--wash-selected);color:var(--primary)}
+#app .summary-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:14px}
+#app .kpi{background:var(--bg-card);border:1px solid var(--hairline);border-radius:18px;padding:16px 18px;box-shadow:0 1px 2px var(--shadow-tint)}
+#app .kpi .sl{display:block;margin-bottom:6px}
+#app .kpi .kv{font:600 26px/1.1 Fraunces,"IBM Plex Sans Arabic",serif;color:var(--ink-900)}
+#app .kpi .kh{font-size:12px;color:var(--ink-500);margin-top:4px}
+#app .kpi.bad .kv{color:#9B2C45}
+#app .loadrow{display:grid;grid-template-columns:minmax(90px,160px) 1fr 34px;align-items:center;gap:10px;margin-bottom:8px}
+#app .loadrow .ln{font-size:13px;color:var(--ink-700);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#app .loadrow .bar{height:8px;border-radius:4px}
+#app .loadrow .lv{font:600 12px "JetBrains Mono",monospace;color:var(--ink-500);text-align:end}
+#app .sev{display:inline-flex;font:600 10px "JetBrains Mono",monospace;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:6px}
+#app .sev.hard{background:#F6E6EA;color:#9B2C45}
+#app .sev.soft{background:var(--wash-selected);color:var(--primary)}
+#app .notice{background:#F6E6EA;color:#7D2438;border-radius:12px;padding:10px 14px;font-size:13px;margin:0 0 14px}
+#app .notice:empty{display:none}
+#app .quiet[role="status"]:empty{display:none}
+#app .quiet[role="status"]{margin:0 0 14px;background:#F6E6EA;color:#7D2438;border-radius:12px;padding:10px 14px}
+#app .workspace-toolbar .tb-actions{display:flex;gap:8px;align-items:center;margin-bottom:22px}
+#app .workspace-toolbar .tb-actions .btn{margin:0}
+#app .workspace-toolbar .language-switch{margin-bottom:0}
+#app .ibtn.tb{width:38px;height:38px;border:1px solid var(--hairline-strong);background:var(--bg-raised);border-radius:12px;color:var(--ink-700)}
+#app .ibtn.tb:disabled{opacity:.4;cursor:not-allowed}
+#app .ibtn.tb svg{width:16px;height:16px}
+#app .solving-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent-soft);margin-inline-start:8px;animation:pulse 1s infinite var(--ease);vertical-align:middle}
+@keyframes pulse{0%,100%{opacity:.25}50%{opacity:1}}
+.modal .card[data-act="pick"]{width:100%;font:inherit;color:inherit;border:1px solid var(--hairline);transition:border-color .15s var(--ease),background .15s var(--ease)}
+.modal .card[data-act="pick"]:hover{border-color:var(--accent-soft);background:var(--wash-hover)}
+.modal .card+.card{margin-top:0}
+.modal textarea{width:100%;resize:vertical}
+.modal input[type="text"]{font:inherit;font-size:14px;color:var(--ink-900);background:var(--bg-raised);border:1px solid var(--hairline-strong);border-radius:var(--r-ctl);padding:9px 12px;min-height:40px;flex:1 1 140px;min-width:0}
+.modal .ob-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.modal .ob-key{width:96px;font-size:12px;font-weight:600;color:var(--ink-500);text-transform:capitalize}
+.modal .ibtn{border:1px solid var(--hairline);font-size:14px}
+@media(max-width:680px){
+  #app .tblcard{padding:0}
+  #app .tblcard .sched{min-width:0}
+  #app .entity-card,#app .rule-card{padding:14px}
+  #app .rule-add-row select{min-width:0;flex:1 1 100%}
+  #app .rule-add-row .btn{flex:1}
+  #app .workspace-toolbar{align-items:stretch}
+  #app .workspace-toolbar .tb-actions{margin-bottom:14px;width:100%;justify-content:flex-end}
+  #app .workspace-toolbar .seg{margin-bottom:10px}
+  #app .loadrow{grid-template-columns:90px 1fr 30px}
+  .modal{padding:18px 16px}
+  .modal .ob-key{width:100%}
+}

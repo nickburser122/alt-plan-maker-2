@@ -1,0 +1,88 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../../src/ui/tokens.css"><link rel="stylesheet" href="../../src/ui/components.css"><link rel="stylesheet" href="../../src/ui/mobile.css"><link rel="stylesheet" href="../../src/ui/forms.css"><link rel="stylesheet" href="../../src/ui/polish.css"></head><body><main id="app"></main><output id="result">Running</output><script type="module">
+import { createApp } from '../../src/app.js';
+import { findPreset } from '../../src/core/presets.js';
+import { validateModel } from '../../src/core/schema.js';
+function check(condition, message) { if (!condition) throw Error(message); }
+function wait(ms = 180) { return new Promise(resolve => setTimeout(resolve, ms)); }
+function nav(root, index) { const buttons = root.querySelectorAll('.workspace-toolbar nav button'); check(buttons[index], 'Missing nav ' + index); buttons[index].click(); }
+function change(el, value) { el.value = value; el.dispatchEvent(new Event('change', { bubbles: true })); }
+async function waitPlan(app, root) { await wait(300); for (let i = 0; i < 60 && (!app.getPlan() || root.querySelector('.solving-dot')); i++) await wait(200); }
+async function run() {
+  const root = document.getElementById('app');
+  const app = createApp(root, findPreset('blank').build('2026-09-28'));
+  await waitPlan(app, root);
+  check(app.getPlan()?.assignments.length === 0, 'Blank plan should solve');
+
+  nav(root, 1);
+  check(root.querySelector('#res-list .empty'), 'Resources should start empty');
+  root.querySelector('#res-add').click();
+  check(root.querySelectorAll('#res-list .res-row').length === 1, 'New resource missing');
+  check(!root.querySelector('#res-list .empty'), 'Stale empty state remains');
+  check(root.querySelector('.view-container .ctitle').textContent.startsWith('1 '), 'Resource count did not update: "' + root.querySelector('.view-container .ctitle').textContent + '"');
+  change(root.querySelector('.res-name'), 'Sample person');
+  check(app.store.state.resources[0].name.en === 'Sample person' && app.store.state.resources[0].name.ar === 'Sample person', 'Name not saved to both languages');
+  root.querySelector('[data-act="toggle-day"][data-day="0"]').click();
+  check(app.store.state.resources[0].avail.weekdays[0] === 0, 'Weekday availability toggle failed');
+  root.querySelector('[data-act="toggle-role"]').click();
+  check(app.store.state.resources[0].roles.length === 1, 'Last role must not be removable');
+
+  nav(root, 2);
+  root.querySelector('#site-add').click();
+  check(root.querySelectorAll('#site-list .site-row').length === 1, 'New site missing');
+  check(Object.keys(app.store.state.sites[0].attrs).length === 0, 'Site acquired undeclared attribute');
+  change(root.querySelector('.site-name'), 'Sample site');
+  const del = root.querySelector('[data-act="remove-site"]');
+  del.click();
+  check(app.store.state.sites.length === 1, 'Delete must require confirmation');
+  del.click();
+  check(app.store.state.sites.length === 0, 'Confirmed delete failed');
+  root.querySelector('.tb-actions .ibtn.tb').click();
+  check(app.store.state.sites.length === 1, 'Undo did not restore the site');
+  check(app.store.state.ui.view === 'sites', 'Undo must not change the current view');
+
+  nav(root, 3);
+  const pick = root.querySelector('#rule-type-pick');
+  pick.value = 'pairing';
+  root.querySelector('#rule-add').click();
+  check(root.querySelectorAll('.rule-row').length === 1, 'New rule not visible');
+  const personSelect = root.querySelector('.rule-row select[data-param="a"]');
+  check(personSelect, 'Pairing rule needs a person dropdown');
+  change(personSelect, app.store.state.resources[0].id);
+  check(app.store.state.rules[0].params.a === app.store.state.resources[0].id, 'Person param not saved');
+  check(root.querySelector('.rule-preview').textContent.includes('Sample person'), 'Preview should show the person name');
+  root.querySelector('.rule-row [data-sev="off"]').click();
+  check(app.store.state.rules[0].enabled === false, 'Off severity should disable rule');
+  pick.value = 'unavailable-dates';
+  root.querySelector('#rule-add').click();
+  const dateInput = root.querySelector('[data-add-date]');
+  check(dateInput, 'Date list editor missing');
+  change(dateInput, '2026-10-01');
+  check(app.store.state.rules[1].params.dates.includes('2026-10-01'), 'Date not added');
+
+  nav(root, 5);
+  check(root.querySelector('.weekday-grid input'), 'Calendar fields missing');
+  change(root.querySelector('[data-field="lex-en"]'), 'Coordinator');
+  check(app.store.state.lexicon.resource.en === 'Coordinator', 'Lexicon text not saved');
+  root.querySelector('[data-add="role"]').click();
+  check(app.store.state.roles.length === 2, 'Add role failed');
+  change(root.querySelector('[data-weekday="0"]'), '2');
+  check(app.store.state.calendar.weekdayDefaults[0].blocks[0].slots === 2, 'Weekday slots not saved');
+  check(validateModel(app.store.state).length === 0, 'Edited model invalid: ' + validateModel(app.store.state).join(', '));
+
+  nav(root, 0);
+  await waitPlan(app, root);
+  check(app.getPlan().assignments.length > 0, 'Edited model should produce assignments');
+  check(root.querySelector('#plan-title').textContent.includes('assignments'), 'Plan title should be descriptive');
+  const pill = root.querySelector('#plan-body button.pill');
+  pill.click();
+  check(app.store.state.locks.length === 1, 'Lock toggle failed');
+
+  root.querySelector('.language-switch').click();
+  check(document.documentElement.dir === 'rtl', 'Arabic RTL toggle failed');
+  check(root.querySelector('.language-switch').textContent === 'English', 'Language toggle label failed');
+  app.destroy();
+  document.querySelector('#result').textContent = 'PASS';
+  console.log('UI PROBE PASS');
+}
+run().catch(error => { document.querySelector('#result').textContent = 'FAIL ' + error.message; console.error('UI PROBE FAIL', error.message); });
+</script></body></html>

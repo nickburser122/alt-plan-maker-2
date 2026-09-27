@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../src/ui/tokens.css">
+<link rel="stylesheet" href="../../src/ui/components.css">
+<link rel="stylesheet" href="../../src/ui/mobile.css">
+<link rel="stylesheet" href="../../src/ui/forms.css">
+<link rel="stylesheet" href="../../src/ui/polish.css">
+<style>body{margin:0;background:var(--bg-page)}#app{max-width:1100px;margin:auto;padding:24px}</style>
+</head>
+<body>
+<div id="app"></div>
+<script type="module">
+import { boot } from '../../src/app.js';
+window.__app = boot(document.getElementById('app'));
+window.__ready = true;
+</script>
+</body>
+</html>

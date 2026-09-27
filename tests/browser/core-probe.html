@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Core probe</title></head><body><output id="result">Running</output><script type="module">
+import { PRESETS } from '../../src/core/presets.js';
+import { validateModel } from '../../src/core/schema.js';
+import { solve } from '../../src/core/solve.js';
+let failures = [];
+for (const preset of PRESETS) {
+  try {
+    const model = preset.build();
+    const errors = validateModel(model);
+    if (errors.length) failures.push(preset.id + ': schema ' + errors.join('; '));
+    const plan = solve(model);
+    const hard = plan.violations.filter(v => v.severity === 'hard');
+    if (plan.openSlots.length || hard.length) failures.push(preset.id + ': ' + plan.openSlots.length + ' open, ' + hard.length + ' hard violations');
+    console.log(preset.id, 'assignments', plan.assignments.length, 'open', plan.openSlots.length, 'hard', hard.length);
+  } catch (error) { failures.push(preset.id + ': ' + error.message); }
+  await new Promise(resolve => setTimeout(resolve, 0));
+}
+document.querySelector('#result').textContent = failures.length ? 'FAIL ' + failures.join(' | ') : 'PASS';
+if (failures.length) console.error('CORE PROBE FAIL', failures); else console.log('CORE PROBE PASS');
+</script></body></html>
